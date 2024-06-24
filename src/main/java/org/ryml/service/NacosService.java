@@ -1,22 +1,12 @@
 package org.ryml.service;
 
-import lombok.Data;
-import org.ryml.config.NacosConfig;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 /**
- * description:
- *
- * @author 刘一博
- * @version V1.0
- * @date 2023/11/26 21:39
+ * @Description:
+ * @author: 刘一博
+ * @date: 2024/6/24 14:17
  */
-@Service
-@Data
-public class NacosService {
+public interface NacosService {
 
-    @Autowired
-    private NacosConfig nacosConfig;
+
 
 }
